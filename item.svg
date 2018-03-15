@@ -1,0 +1,24 @@
+<svg y="{{Height}}"
+     viewBox="0 0 301 46"
+     version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+  <g>
+    <rect x="0.442" y="0.001" width="300" height="45.286" style="fill:#fff;"/>
+    <g>
+      <text x="243.316px" y="20.52px" style="font-family:'MicrosoftYaHei', 'Microsoft YaHei', sans-serif;font-size:8px;fill:#404040;">{{Sum}}</text>
+      <text x="248.008px" y="33.272px" style="font-family:'MicrosoftYaHei', 'Microsoft YaHei', sans-serif;font-size:8px;fill:#404040;">{{Avg}}</text>
+    </g>
+    <text x="91.671px" y="27.91px" style="font-family:'MicrosoftYaHei', 'Microsoft YaHei', sans-serif;font-size:12px;fill:#404040;">{{Name}}</text>
+    <use id="_01" xlink:href="#Avatar_{{Id}}" x="0" y="0" width="354px" height="354px" transform="matrix(1,0,0,1,44.0385,6.24957)"/>
+    <g>
+      <circle cx="22.261" cy="23.75" r="8" style="fill:#dce1e4;"/>
+      <text x="18.603px" y="28.062px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:#262626;">{{Rank}}</text>
+    </g>
+  </g>
+
+  <defs>
+    <image id="Avatar_{{Id}}" width="35px" height="35px" xlink:href="data:image/png;base64,{{Avatar}}"/>
+  </defs>
+</svg>
